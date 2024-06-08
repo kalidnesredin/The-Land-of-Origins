@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Hotel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #070707;
+        }
+        .foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid gray;
+
+}
+.address{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.address li{
+    font-family: "jura";
+    padding-top: 10px;
+}
+.foot a:hover{
+    color: brown;
+}
+.foot h4{
+    font-family: "jura";
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.tabs{
+    font-family: "jura";
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.links li{
+    font-size: smaller;
+    font-family: "jura";
+    padding-top: 10px;
+}
+.Animals li{
+    font-size: smaller;
+    font-family: "jura";
+    padding-top: 10px;
+}
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+      display: flex;
+      align-items: center;
+    }
+    .description{
+      color: white;
+    }
+      
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url('hotel.jpg') no-repeat center center/cover;  
+        }
+        .photo {
+        width: 100%;
+        height: 100%;
+      }
+
+        .hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3em;
+            text-shadow: black;
+            margin: 0;
+        }
+        .txt{
+          color: white;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .item {
+      padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="page2.html">Destinations</a></li>
+              <li><a href="animal.html">Animals</a></li>
+              <li><a href="tour.html">Tour</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Hotels and guest houses in Ethiopia</h1>
+        <div class="image-1">
+          <img src="picture 1.jpg" alt="Image" class="photo">
+        </div>
+    </div>
+    
+    <h1 class="txt">Hotels Around Simien Mountains</h1>
+    <div class="container">
+      <div class="image">
+        <img src="picture 2.jpg" alt="Image"width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Simien Lodge</h1>
+        <p>Address       Night Towers,2nd floor,kazanchis Addis Ababa Ethiopia</p>
+        <p1> Addis Officer:        +251 11 5524758</p1>
+        <p> Lodge:     +251 582 310741</p>
+      </div>
+    </div>
+    <h1 class="txt">Hotels Around Harar City</h1>
+    <div class="container">
+      <div class="image">
+        <img src="sumeya hotel.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Sumeya Hotel</h1>
+        <p>ADDRESS    charleville Ave,Harar 0901 Ethiopia</p>
+      </div>
+    </div>
+    <h1 class="txt">Hotels Around Afar  </h1>
+    <div class="container">
+      <div class="image">
+        <img src="kuriftu-resorts-awash.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Kuritu Resort & Spa Awash Falls</h1>
+        <p>ADDRESS     Awash Falls, Awash Ethiopia</p>
+      </div>
+    </div>
+    <h1 class="txt">Hotels Around Axum  </h1>
+    <div class="container">
+      <div class="image">
+        <img src="negisha-hotel axum.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Negisha Hotel</h1>
+        <p>ADDRESS    North of Ezana Park 30M Axum Ethiopia</p>
+      </div>
+    </div>
+    <h1 class="txt"> Hotels Around Bale  </h1>
+    <div class="container">
+      <div class="image">
+        <img src="bale-mountains hotel.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Bale Mountain Lodge</h1>
+        <p>ADDRESS   Bale Mountains National park 1107 Ethiopia</p>
+      </div>
+    </div>
+    <h1 class="txt"> Hotels Around Lalibela  </h1>
+    <div class="container">
+      <div class="image">
+        <img src="sora-lodge-lalibela.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Sora Lodge Lalibela </h1>
+        <p>ADDRESS  Getege,Lalibela Ethiopia</p>
+      </div>
+    </div>
+    <h1 class="txt"> Hotels Around Addis Ababa  </h1>
+    <div class="container">
+      <div class="image">
+        <img src="bar-and-cocktail-lounge.jpg" alt="Image" width="600" height="400">
+      </div>
+      <div class="description">
+        <h1>Best Western Plus Pearl Addis</h1>
+        <p>ADDRESS   Cameroon Street BL 03721, Addis Ababa Ethiopia</p>
+      </div>
+    </div>
+          <div class="foot">
+        <div class="address">
+            <ul>
+                <li><p>Address:         Africa Avenue, Japan Embassy Trafic Light, Addis Ababa, Ethiopia</p></li>
+                <li><p>phone:           +251 11 123 4567</p></li>
+                <li><p>mail:            info@mot.gov.et</p></li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <h4><a href="#">Destinations</a></h4>
+            <ul>
+                <li><a href="#Axum">Axum</a></li>
+                <li><a href="#Harar">Harar City</a></li>
+                <li><a href="#Lalibela">Lalibela</a></li>
+                <li><a href="#Nechi">Nechi Sar</a></li>
+                <li><a href="#Addis">Addis Ababa</a></li>
+                <li><a href="#Denakel">Denakel Deppresion</a></li>
+                <li><a href="#bale">Bale Mountains</a></li>
+                <li><a href="#Semin">Semain Mountains</a></li>
+            </ul>
+        </div>
+
+        <div class="Animals">
+            <h4><a href="animal.html">Animals</a></h4>
+            <ul>
+                <li><a href="animals2.html">Indigenous</a></li>
+                <li><a href="animals3.html">Non-Indigenous</a></li>
+            </ul>
+        </div>
+        <div class="tabs">
+            <a href="ture travel.html">Hotels</a>
+            <a href="tour.html">Tour</a>
+        </div>
+    </div>
+</body>
+</html>

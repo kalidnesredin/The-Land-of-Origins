@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header {
+    background: rgb(44, 15, 15);
+    width: 100%;
+    z-index: 10;
+    height: 30px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    /* padding: 0 50px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    font-family: "jura";
+    padding-top: 0;
+    padding-bottom: 5px;
+    /* overflow: hidden; */
+}
+header nav ul{
+    display: flex;
+    margin-right: 60px;
+    list-style-type: none;
+    
+}
+header nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 5px 0;
+    padding-right: 20px;
+    /* margin: 0 10px; */
+    transition: 0.2s;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: brown;
+    list-style-type: none;
+}
+.logo {
+    font-size: 30px;
+    margin-left: 50px;
+}
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background:gray;
+}
+
+/* section  area  for post */
+
+.first-section{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    background-image: url("animalpage2/black_lion-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 900px;
+    background-color: rgb(28, 17, 17);
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+    
+.first-section div{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.first-section div h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.first-section div p{
+    margin-top: 100px;
+}
+.first-section div h2{
+    margin-top: 50px;
+    width: 100px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.first-section div a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.second-section{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.second-section p{
+    margin-top: 30px;
+}
+.thrd-section{
+    position: relative;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.wolf{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    /* border: 2px solid green; */
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.wolf p{
+    margin-top: 30px;
+}
+.nyala{
+    position: relative ;
+    display: inline-block;
+    width: 40%;
+    /* border: 2px solid green; */
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.nyala p{
+    margin-top: 30px;
+}
+
+.next-page{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* responsiveness fo article */
+@media screen and (max-width:500px) {
+    .wolf, .nyala{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .second-section{
+        margin-left: 10px;
+    }
+    .first-section div{
+        margin-left: 10px;
+    }  
+}
+@media screen and (max-width:980px) {
+    .wolf, .nyala{
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+
+/* ths is footer area */
+.foot{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid gray;
+    background-color: black;
+    overflow: hidden;
+}
+.address{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.address li{
+    font-family: "jura";
+    padding-top: 10px;
+    list-style-type: none;
+}
+.foot a{
+    color: rgb(203, 195, 195);
+    text-decoration: none;
+}
+.foot a:hover{
+    color: brown;
+}
+.foot h4{
+    font-family: "jura";
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.tabs{
+    margin-left: 20px;
+}
+.tabs a{
+    display: block;
+    font-family: "jura";
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.links li{
+    font-size: smaller;
+    font-family: "jura";
+    padding-top: 10px;
+    list-style-type: none;
+}
+.Animals li{
+    font-size: smaller;
+    font-family: "jura";
+    padding-top: 10px;
+    list-style-type: none;
+}
+/* Responssiveness */
+@media only screen and (max-width: 500px) {
+    .hamburger{
+        display: block;
+        padding-right: 70px;
+        float: right;
+        margin-left: 250px;
+    }
+    header{
+        z-index: 10;
+    }
+    header nav {
+        position: relative;
+        z-index: 1;
+        /* width: 100%; */
+        /* top: 130px; */
+        width: 80px;
+        height: 50px;
+        /* background: rgb(57, 9, 9) transparent; */
+        /* opacity: .9; */
+        padding: 100px;
+        transition: .9s;
+        transform: translateX(250px);
+        margin-top: 75px;
+        margin-bottom: 0;
+        overflow: hidden;
+        /* border: 2px solid blue;
+        border-radius: 30px; */
+    }
+    /* nav{
+        background-color: rgb(41, 12, 12);
+    } */
+    header #nav_check:checked ~ nav {
+        transform: translateX(-590px);
+        width: 400px;
+    }
+    header nav ul {
+        display: block;
+        margin-top: 0;
+    }
+    header nav ul li a {
+        /* margin: 5px 0; */
+        width: 200px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width : 600px){
+    .foot{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding-left: 30px;
+    }
+  }

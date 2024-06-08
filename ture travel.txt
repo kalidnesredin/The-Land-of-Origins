@@ -1,0 +1,31 @@
+n<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    
+    .image {
+      flex: 1;
+    }
+    
+    .description {
+      flex: 1;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="path/to/your/image.jpg" alt="Image">
+    </div>
+    <div class="description">
+      <h2>Description</h2>
+      <p>This is the description of the image.</p>
+    </div>
+  </div>
+</body>
+</html>
